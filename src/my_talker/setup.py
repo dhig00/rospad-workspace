@@ -12,5 +12,5 @@ setup(
             'my_node = my_talker.my_node:main',     # talker — already there from pkg create
             'listener = my_talker.listener:main',   # ← add this line
         ],
-    },
+    }
 )
